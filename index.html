@@ -1,49 +1,45 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trial Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            background-color: #f4f4f4;
-        }
-        .navbar {
-            background-color: #333;
-            padding: 15px;
-            color: white;
-            font-size: 20px;
-        }
-        .hero {
-            padding: 50px;
-            background-color: #007bff;
-            color: white;
-        }
-        .content {
-            padding: 20px;
-        }
-        .footer {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>Grab It Now - Meesho Style</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="navbar">Trial Website Navbar</div>
-    <div class="hero">
-        <h1>Welcome to Trial Website</h1>
-        <p>This is a simple free-hosted website demo.</p>
-    </div>
-    <div class="content">
-        <p>This is the main content section. You can add more details here.</p>
-    </div>
-    <div class="footer">&copy; 2025 Trial Website. All rights reserved.</div>
+    <header>
+        <nav>
+            <div class="logo">Grab It Now</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="banner">
+        <h1>Best Deals on Top Categories!</h1>
+    </section>
+    
+    <section class="products">
+        <div class="product-card">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Stylish T-shirt</h3>
+            <p>₹499 <span>₹999</span></p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="product2.jpg" alt="Product 2">
+            <h3>Trendy Handbag</h3>
+            <p>₹799 <span>₹1599</span></p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Grab It Now. All rights reserved.</p>
+    </footer>
 </body>
 </html>
