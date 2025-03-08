@@ -4,42 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grab It Now - Meesho Style</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
+
+    <!-- ✅ Navbar -->
+    <div class="navbar">
         <div class="logo">Grab It Now</div>
-        <ul class="nav-links">
+        <ul>
             <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
             <li><a href="#">Categories</a></li>
             <li><a href="#">Cart</a></li>
-            <li><a href="#">Login</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
-    </nav>
+    </div>
 
-    <!-- Main Content -->
-    <section class="content">
-        <h1>Best Deals on Top Categories!</h1>
+    <!-- ✅ Hero Section -->
+    <div class="hero">
+        <h1>Best Deals on Fashion & Home Products!</h1>
+        <button>Shop Now</button>
+    </div>
+
+    <!-- ✅ Product Section -->
+    <div class="container">
         <div class="product">
-            <img src="product1.jpg" alt="Product 1">
-            <h2>Stylish T-shirt</h2>
-            <p>&#8377;499 <del>&#8377;999</del></p>
-            <button>Add to Cart</button>
+            <img src="product1.jpg" alt="Product">
+            <h3>Trendy T-Shirt</h3>
+            <p class="price">₹399</p>
+            <button class="add-to-cart">Add to Cart</button>
         </div>
         <div class="product">
-            <img src="product2.jpg" alt="Product 2">
-            <h2>Trendy Handbag</h2>
-            <p>&#8377;799 <del>&#8377;1599</del></p>
-            <button>Add to Cart</button>
+            <img src="product2.jpg" alt="Product">
+            <h3>Stylish Handbag</h3>
+            <p class="price">₹799</p>
+            <button class="add-to-cart">Add to Cart</button>
         </div>
-    </section>
+        <div class="product">
+            <img src="product3.jpg" alt="Product">
+            <h3>Casual Shoes</h3>
+            <p class="price">₹999</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>&copy; 2025 Grab It Now. All rights reserved.</p>
-    </footer>
+    <!-- ✅ Footer -->
+    <div class="footer">
+        &copy; 2025 Grab It Now. All rights reserved.
+    </div>
 
+    <!-- ✅ JavaScript File -->
     <script src="script.js"></script>
+
 </body>
 </html>
