@@ -4,42 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grab It Now - Meesho Style</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Grab It Now</div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">Cart</a></li>
-                <li><a href="#">Login</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section class="banner">
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Grab It Now</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="content">
         <h1>Best Deals on Top Categories!</h1>
-    </section>
-    
-    <section class="products">
-        <div class="product-card">
+        <div class="product">
             <img src="product1.jpg" alt="Product 1">
-            <h3>Stylish T-shirt</h3>
-            <p>₹499 <span>₹999</span></p>
+            <h2>Stylish T-shirt</h2>
+            <p>&#8377;499 <del>&#8377;999</del></p>
             <button>Add to Cart</button>
         </div>
-        <div class="product-card">
+        <div class="product">
             <img src="product2.jpg" alt="Product 2">
-            <h3>Trendy Handbag</h3>
-            <p>₹799 <span>₹1599</span></p>
+            <h2>Trendy Handbag</h2>
+            <p>&#8377;799 <del>&#8377;1599</del></p>
             <button>Add to Cart</button>
         </div>
     </section>
-    
-    <footer>
+
+    <!-- Footer -->
+    <footer class="footer">
         <p>&copy; 2025 Grab It Now. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
