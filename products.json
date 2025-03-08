@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Stylish Printed T-Shirt",
+    "price": 499,
+    "image": "images/tshirt.jpg",
+    "category": "Men's Fashion"
+  },
+  {
+    "id": 2,
+    "name": "Trendy Handbag",
+    "price": 899,
+    "image": "images/handbag.jpg",
+    "category": "Women's Fashion"
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes",
+    "price": 1299,
+    "image": "images/shoes.jpg",
+    "category": "Footwear"
+  }
+]
